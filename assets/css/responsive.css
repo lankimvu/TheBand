@@ -1,0 +1,97 @@
+/* PC */
+@media (min-width: 1024px) {
+    
+}
+
+@media (max-width: 1024px){
+    .button{
+        padding: 15px 16px;
+    }
+
+    #nav.subnav a{
+        padding: 5px 12px;
+    }
+
+    .contact-form .form-control{
+        padding: 15px;
+    }
+
+    .socials-list{
+        font-size: 48px;
+    }
+}
+
+/* IPAD tablet */
+@media (min-width: 739px) and (max-width:1023) {
+    .contact-info{
+        line-height: 2;
+    }
+}
+
+
+
+
+/* MOBILE */
+@media (max-width: 739px) {
+    /* .column-third{
+        width: 100%;
+    } */
+    .s-mt-8{
+        margin-top: 8px !important;
+    }
+    
+    .s-full-width,
+    .s-column-full{
+        width: 100% !important;
+    }
+
+    #header {
+        overflow: hidden;
+    }
+
+    #header .mobile-menu-button{
+        display: block;
+    }
+
+    #header .search-button {
+        display: none;
+    }  
+
+    #nav{
+        display: block;
+    }
+
+    #nav li a{
+        padding: 1px 24px;
+    }
+    
+    #nav > li{
+        display: block;
+    } 
+
+    #nav .subnav {
+        position: initial;
+        background-color: #333;
+    }
+
+    #nav .subnav a{
+        color: #fff;
+        padding: 5px 41px;
+    }
+
+    #content .member-avt{
+        width: 60%;
+        /* margin: 16px 0 16px;
+        border-radius: 4px */
+    }
+    #contact-form{
+        margin-top: 32px;
+    }
+}
+    
+    
+    
+    
+   
+
+     
